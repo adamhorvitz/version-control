@@ -1,4 +1,6 @@
-# Adam Horvitz was here
+#Adam H file
+
+# Nate achinger new challenger @ 8:34pm
 def encoder(word):
     new_pass = ''
     for char in word:

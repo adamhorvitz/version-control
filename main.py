@@ -3,6 +3,9 @@
 # Nate achinger new challenger @ 8:34pm
 
 # Are we back???
+
+# Were so back - Nate
+
 def encoder(word):
     new_pass = ''
     for char in word:

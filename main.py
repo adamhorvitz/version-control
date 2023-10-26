@@ -1,4 +1,4 @@
-# Adam Horvitz user1
+# Adam Horvitz will this work
 def encoder(word):
     new_pass = ''
     for char in word:

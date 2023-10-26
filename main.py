@@ -4,7 +4,7 @@
 
 # Are we back???
 
-# Were so back - Nate
+# Were so back - Nate.
 
 def encoder(word):
     new_pass = ''

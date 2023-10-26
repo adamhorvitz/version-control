@@ -1,4 +1,4 @@
-#Adam H file...
+#Adam H file
 
 # Nate achinger new challenger @ 8:34pm
 def encoder(word):

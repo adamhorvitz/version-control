@@ -1,10 +1,12 @@
-#Adam H file
+#Adam Horvitz
 
 # Nate achinger new challenger @ 8:34pm
 
 # Are we back???
 
 # Were so back - Nate.
+
+# This is a test of GitHub Desktop @ 9:46 pm
 
 def encoder(word):
     new_pass = ''

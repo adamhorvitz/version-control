@@ -1,6 +1,8 @@
 #Adam H file
 
 # Nate achinger new challenger @ 8:34pm
+
+# Are we back???
 def encoder(word):
     new_pass = ''
     for char in word:

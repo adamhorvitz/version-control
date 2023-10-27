@@ -1,13 +1,5 @@
 #Adam Horvitz
 
-# Nate achinger new challenger @ 8:34pm
-
-# Are we back???
-
-# Were so back - Nate.
-
-# This is a test of GitHub Desktop @ 9:46 pm
-
 def encoder(word):
     new_pass = ''
     for char in word:
@@ -16,6 +8,17 @@ def encoder(word):
             digit = digit % 10
         new_pass += str(digit)
     return new_pass
+
+
+def decoder(encoded_password):
+    decoded_password = ''
+    for digit in encoded_password:
+        if int(digit) - 3 > 0:
+            decoded_password += str(int(digit) - 3)
+        else:
+            decoded_password += str(int(digit) + 7)
+
+    return decoded_password
 
 
 def main():
@@ -28,6 +31,7 @@ def main():
             new_password = encoder(password)
             print('Your password has been encoded and stored!\n')
         elif option == 2:
+            password = decoder(new_password)
             print(f'The encoded password is {new_password}, and the original password is {password}.')
 
 
